@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name" translatable="false">Trackrrr</string>
+
+    <!-- region Dashboard view -->
+
+    <string name="main_screen_toolbar_title">Your Period</string>
+    <string name="main_screen_toolbar_settings_button">Settings</string>
+
+    <string name="main_screen_period_empty_text">You have no period data.\nLog a period to get started.</string>
+
+    <string name="button_log_period">Log a Period</string>
+
+    <string name="current_period_start_date">Start Date</string>
+    <string name="current_period_end_date">End date</string>
+
+    <string name="datepicker_title">Choose period dates</string>
+
+    <string name="button_see_all">See More <font color="@color/red">...</font></string>
+
+    <string name="main_screen_average_title">Average Stats</string>
+    <plurals name="main_screen_average_days_count">
+        <item quantity="one">On average your period is %d day long</item>
+        <item quantity="other">On average your period is %d days long</item>
+    </plurals>
+
+    <string name="main_screen_average_cycle_length">Your average cycle length is %d days</string>
+
+    <string name="bar_chart_days_label">Days</string>
+    <string name="pie_chart_label">Period per month</string>
+
+    <string name="main_screen_average_period_percentage">Your period is approximately %1$s%% of the month</string>
+
+    <!-- endregion Dashboard view -->
+
+
+
+    <!-- region All Periods list view -->
+
+    <string name="all_periods_calendar_toolbar_title">All Periods</string>
+    <string name="all_periods_toolbar_title">All Periods</string>
+    <string name="all_periods_toolbar_back">Go back</string>
+    <string name="all_periods_toolbar_calendar">Calendar view</string>
+    <string name="all_periods_toolbar_list_icon">All periods as list</string>
+    <string name="all_periods_list_item_dates">%1$s to %2$s</string>
+    <plurals name="all_periods_list_days_count_current">
+        <item quantity="one">Currently %d day long</item>
+        <item quantity="other">Currently %d days long</item>
+    </plurals>
+    <plurals name="all_periods_list_days_count_past">
+        <item quantity="one">Was %d day long</item>
+        <item quantity="other">Was %d days long</item>
+    </plurals>
+    <string name="all_periods_list_future_description">Projected next period</string>
+
+    <string name="all_periods_delete_dialog_title">Delete Period?</string>
+    <string name="all_periods_delete_dialog_message">Are you sure you want to delete the period starting on %1$s and ending on %2$s?</string>
+    <string name="all_periods_delete_dialog_cancel">Cancel</string>
+    <string name="all_periods_delete_dialog_confirm_delete">Delete</string>
+    <string name="all_periods_delete_error_message">Failed to delete the period event</string>
+    <string name="all_periods_update_error_message">Failed to update the period event</string>
+    <string name="all_periods_calendar_list_items_empty_text">No periods this month</string>
+
+
+    <!-- endregion All Periods list view -->
+
+
+    <!-- region Settings -->
+
+    <string name="settings_toolbar_back">Go back</string>
+    <string name="settings_toolbar_title">Settings</string>
+
+    <string name="settings_section_title_data">Data</string>
+    <string name="settings_section_title_customization">Customization</string>
+    <string name="settings_section_title_debug">Debug</string>
+    <string name="settings_section_title_support">Support</string>
+
+    <string name="settings_item_import">Import</string>
+    <string name="settings_item_export">Export</string>
+    <string name="settings_item_theme">Theme</string>
+    <string name="settings_item_notifications">Notifications</string>
+    <string name="settings_item_notifications_text">Notification text</string>
+    <string name="settings_item_privacy">Privacy Policy</string>
+    <string name="settings_item_help">Help</string>
+
+    <string name="settings_item_debug_notification_reminder">Reminder</string>
+    <string name="settings_item_debug_notification_upcoming">Upcoming / Warning</string>
+    <string name="settings_item_debug_notification_verify">Verify End Date</string>
+
+    <string name="settings_item_version">Version %1$s</string>
+    <string name="settings_version_copied_message">Version copied to clipboard</string>
+
+    <string name="settings_theme_toolbar_title">Theme</string>
+    <string name="settings_item_theme_system">System</string>
+    <string name="settings_item_theme_night">Night</string>
+    <string name="settings_item_theme_light">Light</string>
+    <string name="settings_theme_button_save">Save</string>
+
+    <string name="settings_notifications_text_toolbar_title">Notification text</string>
+    <string name="settings_notifications_text_description">
+        You can make your notifications more discrete (or fun!) by configuring your own notification text. Here are some examples:\n\n
+        Flow chart meeting in 7 days\n\n
+        Drink water reminder\n\n
+        Prepare the guest suite for Aunt Flow\n\n
+        Welcome to first period class!\n\n
+        <b>Note:</b> When adding custom notifications, dynamic dates and numbers will not be displayed.
+    </string>
+    <string name="settings_notifications_text_edittext_hint">Notification text</string>
+    <string name="settings_notifications_text_save_button">Save Notifications</string>
+    <string name="settings_notifications_text_toast_success">Custom notifications saved!</string>
+
+    <string name="import_error_message_title">Import Error</string>
+    <string name="import_error_message">Failed to import data. Please make sure your file is CSV with dates formatted like: YYYY-MM-DD,YYYY-MM-DD</string>
+    <string name="import_success_message">Your period data was successfully imported!</string>
+
+    <string name="export_filename">Trackrrr Export - %1$s</string>
+
+    <!-- endregion Settings -->
+
+
+    <!-- region Notifications -->
+
+    <string name="notification_generic_title">Reminder</string>
+
+    <string name="notification_reminder_title">Don\'t forget to log your period!</string>
+    <string name="notification_reminder_body">Did your period start yet? You can log it now.</string>
+    <string name="notification_reminder_action_log_now">Log now</string>
+
+    <string name="notification_upcoming_title">Incoming period!</string>
+    <plurals name="notification_upcoming_body">
+        <item quantity="one">Your period is coming up tomorrow!</item>
+        <item quantity="other">Your period is coming up in %d days!</item>
+    </plurals>
+    <string name="notification_upcoming_body_generic">Your period is coming up in 7 days!</string>
+
+    <string name="notification_verify_title">Verify period end date</string>
+    <string name="notification_verify_body">Is %1$s the right end date?</string>
+    <string name="notification_verify_body_generic">Is X the right end date?</string>
+    <string name="notification_verify_action_edit">Edit end date</string>
+
+
+    <!-- Channels -->
+
+    <string name="notification_channel_reminder_title">Period Past Reminders</string>
+    <string name="notification_channel_reminder_description">
+        Reminder after your period is projected to start to remind you to log it.
+    </string>
+    <string name="notification_channel_upcoming_title">Upcoming Period Reminders</string>
+    <string name="notification_channel_upcoming_description">
+        Reminder when your period is about to start a certain number of days ahead of time.
+    </string>
+    <string name="notification_channel_verify_title">Verify End Date Reminder</string>
+    <string name="notification_channel_verify_description">
+        Reminders to verify the end date of the current period.
+    </string>
+
+    <!-- endregion Notifications -->
+
+</resources>
